@@ -1,5 +1,7 @@
 # SPARE
 
+Accepted at [Interspeech 2026](https://interspeech2026.org/en-AU).
+
 ![SPARE training framework](resource/spare_method.svg)
 
 Reference code for **SPARE** (Semantic Prediction for Audio REasoning), from the paper *Enhancing Audio Reasoning via Semantic Summary Prediction* (Interspeech 2026).
@@ -158,19 +160,22 @@ data/afthink_debug/             bundled debug data
 ## Cite
 
 ```bibtex
-@inproceedings{spare2026,
-  title={Enhancing Audio Reasoning via Semantic Summary Prediction},
-  author={Anonymous},
-  booktitle={Interspeech},
-  year={2026}
+@misc{bonzi2026enhancingaudioreasoningsemantic,
+    title={Enhancing Audio Reasoning via Semantic Summary Prediction}, 
+    author={Francesco Bonzi and Pooneh Mousavi and Cem Subakan and Mirco Ravanelli},
+    year={2026},
+    eprint={2609.20849},
+    archivePrefix={arXiv},
+    primaryClass={cs.CL},
+    url={https://arxiv.org/abs/2609.20849}, 
 }
 
 @inproceedings{
-  tang2024salmonn,
-  title={SALMONN: Towards Generic Hearing Abilities for Large Language Models},
-  author={Changli Tang and Wenyi Yu and Guangzhi Sun and Xianzhao Chen and Tian Tan and Wei Li and Lu Lu and Zejun MA and Chao Zhang},
-  booktitle={The Twelfth International Conference on Learning Representations},
-  year={2024},
-  url={https://openreview.net/forum?id=14rn7HpKVk}
+    tang2024salmonn,
+    title={SALMONN: Towards Generic Hearing Abilities for Large Language Models},
+    author={Changli Tang and Wenyi Yu and Guangzhi Sun and Xianzhao Chen and Tian Tan and Wei Li and Lu Lu and Zejun MA and Chao Zhang},
+    booktitle={The Twelfth International Conference on Learning Representations},
+    year={2024},
+    url={https://openreview.net/forum?id=14rn7HpKVk}
 }
 ```
